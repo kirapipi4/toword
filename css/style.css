@@ -29,8 +29,8 @@ p {
    ========================================== */
 body {
   background-size: auto auto;
-  background-color: #f9f9f9;
-  background-image: repeating-linear-gradient(135deg, transparent, transparent 4px, #eaeaea 4px, #eaeaea 5px);
+  background-color: rgba(255, 213, 213, 1);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 4px, rgba(255, 255, 255, 1) 4px, rgba(255, 255, 255, 1) 5px );
   /* 以上の3行が背景のストライプです。
      background-colorがベース色、background-imageが縞の色を制御しています。
      ストライプの色や太さを変えたい場合は、
@@ -57,7 +57,7 @@ dl dt {
 
 a {
   text-decoration: none;
-  color: #54c6ff;
+  color: #ffb2b2;
   /* リンクの色 */
 }
 
